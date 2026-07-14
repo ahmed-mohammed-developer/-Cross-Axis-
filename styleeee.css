@@ -1,0 +1,63 @@
+.user-card {
+    display: flex;
+    align-items: center;      /* محاذاة عمودية للعناصر الثلاثة */
+    gap: 20px;                /* مسافة بين الصورة والمعلومات والزر */
+    padding: 16px 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    max-width: 420px;         /* منع التمدد الزائد في العرض */
+}
+
+/* صورة المستخدم */
+.avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* منطقة المعلومات */
+.info h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.role {
+    margin: 4px 0;
+    color: #666;
+    font-size: 14px;
+}
+
+/* حالة المستخدم */
+.status {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 4px;
+    font-size: 13px;
+    color: #28a745;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #28a745;
+    border-radius: 50%;
+}
+
+/* زر التواصل */
+.contact-btn {
+    margin-left: auto;        /* دفع الزر إلى أقصى اليمين في الاتجاه العربي */
+    padding: 8px 16px;
+    background-color: #0077ff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.contact-btn:hover {
+    background-color: #005bb5;
+}
